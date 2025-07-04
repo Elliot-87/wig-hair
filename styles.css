@@ -1,0 +1,121 @@
+/* Custom crown icon (using Font Awesome) */
+  .fa-crown:before {
+    content: "\f521";
+  }
+  
+  /* Smooth transitions */
+  #marketing-slider {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Active dot state */
+  .slider-dot.opacity-100 {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  /* Contact Form Styles */
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+.border-green-300 {
+    border-color: #86efac;
+}
+
+.border-red-300 {
+    border-color: #fca5a5;
+}
+
+/* Success/Failure Messages */
+.bg-green-100 {
+    background-color: #dcfce7;
+}
+
+.text-green-700 {
+    color: #15803d;
+}
+
+.bg-red-100 {
+    background-color: #fee2e2;
+}
+
+.text-red-700 {
+    color: #b91c1c;
+}
+
+/* Hover Effects */
+.group:hover .group-hover\:text-pink-600 {
+    color: #db2777;
+}
+
+.group:hover .group-hover\:text-gray-900 {
+    color: #111827;
+}
+
+/* Spinner Animation */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+  #back-to-top {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  #back-to-top.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  #back-to-top.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  /* Petal animation */
+  @keyframes petal-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+  }
+  
+  .group:hover .fa-arrow-up {
+    animation: petal-float 1.5s ease-in-out infinite;
+  }
+  /* Testimonials*/
+    /* Custom animations */
+  @keyframes float1 {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(-10px, -10px); }
+  }
+  @keyframes float2 {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(10px, 10px); }
+  }
+  @keyframes underline-expand {
+    0% { width: 0; opacity: 0; }
+    100% { width: 100%; opacity: 0.2; }
+  }
+  @keyframes fade-in-up {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slide {
+    0% { opacity: 0.8; transform: translateX(-5%); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+  
+  .animate-float1 { animation: float1 8s ease-in-out infinite; }
+  .animate-float2 { animation: float2 10s ease-in-out infinite; }
+  .animate-underline-expand { animation: underline-expand 1.5s ease-out forwards; }
+  .animate-fade-in-up { animation: fade-in-up 0.8s ease-out forwards; }
+  .animate-slide { animation: slide 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+  
+  .delay-100 { animation-delay: 0.1s; }
+  .delay-200 { animation-delay: 0.2s; }
+  .delay-300 { animation-delay: 0.3s; }
+  .delay-400 { animation-delay: 0.4s; }
+  
