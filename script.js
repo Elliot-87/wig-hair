@@ -96,7 +96,7 @@ const products = [
         type: "wavy",
         length: "20 inches",
         price: 199.99,
-        image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        image: "images/bnf.jpg",
         featured: true
     },
     {
@@ -106,7 +106,7 @@ const products = [
         length: "18 inches",
         price: 179.99,
         oldPrice: 209.99,
-        image: "images/k9.avif",
+        image: "images/braidal.jpg",
         badge: "NEW",
         featured: true
     },
@@ -197,7 +197,7 @@ const products = [
         type: "wavy",
         length: "22 inches",
         price: 209.99,
-        image: "images/f2.jpg"
+        image: "images/queen.jpg"
     },
     {
         id: 15,
